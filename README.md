@@ -1,9 +1,9 @@
 WxCheckHoliday is  an IBM webMethods Integration Server version 11 package to check whether the given date is a Holiday or not. This package has two services
-These sevvices uses Common Directory Services business calendars. Please refere to documentation https://docs.webmethods.io/on-premises/webmethods-integration-server/en/11.1.0/pdf/cds-ag-pdf.pdf
+These sevvices uses Common Directory Services business calendars. Please refer to documentation https://docs.webmethods.io/on-premises/webmethods-integration-server/en/11.1.0/pdf/cds-ag-pdf.pdf
 to configure holidays in  business calendars. 
 
 Configure the business calendar and define the calendar Alias name in GlobaVariables
-Service 1:  CheckHoliday:checkHoliday  service  checks whether given date is a company configure holiday in Common Directory Service Business Calendar
+Service 1:  CheckHoliday:checkHoliday  service  checks whether given date is a company configured holiday in Common Directory Service Business Calendar
   Inputs:
 
          date: Enter the date  in yyyy-MM-dd format to check whether this date is a holiday in the business calendar.
