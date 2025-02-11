@@ -3,7 +3,7 @@ These sevvices uses Common Directory Services business calendars. Please refer t
 to configure holidays in  business calendars. 
 
 Configure the business calendar and define the calendar Alias name in GlobaVariables
-Service 1:  CheckHoliday:checkHoliday  service  checks whether given date is a company configured holiday in Common Directory Service Business Calendar
+Service 1:  WxCheckHoliday.CheckHoliday:checkHoliday  service  checks whether given date is a company configured holiday in Common Directory Service Business Calendar
   Inputs:
 
          date: Enter the date  in yyyy-MM-dd format to check whether this date is a holiday in the business calendar.
@@ -13,7 +13,7 @@ Service 1:  CheckHoliday:checkHoliday  service  checks whether given date is a c
                      false - if the date is a working day
 
 .
-Service 2:  CheckHoliday:isTodayHoliday ervice  checks whether the today is a hoiday or not.
+Service 2:  WxCheckHoliday.CheckHoliday:isTodayHoliday service  checks whether  today is a hoiday or not.
    Inputs: None
    outputs:
         isHoliday:   true - if the date is a company holiday 
